@@ -1,0 +1,116 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.whl
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Conda environment
+env/
+*.conda
+*.yml
+*.yaml
+
+# Virtualenv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Notebook config
+.jupyter/
+
+# Notebook metadata
+*.nbconvert/
+
+# IPython history
+.history
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Unit test / coverage reports
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# Editor backups
+*~ 
+*.swp
+*.swo
+*.bak
+
+# macOS files
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python environment files
+requirements.txt
+environment.yml
+
+# Local configuration files
+*.env
+.env.*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook output cells (optional)
+*.ipynb_output/
