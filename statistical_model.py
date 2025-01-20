@@ -1,16 +1,14 @@
 import torch
 
+from utils import load_data, create_lookup_tables
+
 # load data
-with open('./names.txt') as f:
-    data = f.read().splitlines()
+data = load_data()
 print(f'Total names: {len(data)}')
 
 # create letters lookup tables
-letters = list(set(''.join(data)))
-tokens_count = len(letters) + 1  # count for special token '.'
-stoi = {c: i + 1 for i, c in enumerate(sorted(letters))}
-stoi['.'] = 0
-itos = {i: c for c, i in stoi.items()}
+tokens_count = 27
+stoi, itos = create_lookup_tables(data)
 
 # calculate bi-grams' counts
 bigrams = torch.zeros(tokens_count, tokens_count, dtype=torch.float)
